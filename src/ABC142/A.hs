@@ -1,4 +1,4 @@
-
+module ABC142.A where
 
 main = do
   n <- readLn

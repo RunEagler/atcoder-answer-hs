@@ -1,3 +1,4 @@
+module ABC132.A where
 
 import Data.List (sort, group)
 main = do

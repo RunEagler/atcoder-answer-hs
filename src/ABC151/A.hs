@@ -1,3 +1,4 @@
+module ABC151.A where
 
 import Data.Char
 main = do

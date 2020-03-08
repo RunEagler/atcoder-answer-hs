@@ -1,4 +1,4 @@
-
+module ABC154.A where
 
 main = do
   [s,t] <- words <$> getLine

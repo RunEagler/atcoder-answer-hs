@@ -1,3 +1,4 @@
+module ABC146.A where
 
 import Data.List
 import Data.Maybe

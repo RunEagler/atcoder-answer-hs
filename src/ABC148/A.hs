@@ -1,4 +1,4 @@
-
+module ABC148.A where
 
 answer::Int -> Int -> Int
 main = do

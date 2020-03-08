@@ -1,3 +1,4 @@
+module ABC123.A where
 
 import Control.Monad (replicateM)
 
