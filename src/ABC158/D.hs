@@ -1,4 +1,4 @@
---module ABC158.D where
+module ABC158.D where
 --
 --import Control.Monad (replicateM)
 --import qualified Data.ByteString.Char8 as BS
