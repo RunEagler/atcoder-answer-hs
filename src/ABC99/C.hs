@@ -1,0 +1,19 @@
+module ABC99.C where
+--
+--import Data.List (sortBy)
+--import Data.Ord (comparing)
+--
+----solve::Int->[Int]->Int->Int->Int
+----solve n p i acc | i == 12 = n
+----                | n == 0 = acc
+----                | n > (p !! i) = solve (n-(p !! i)) p 0 acc+1
+----                | otherwise = solve n p (i+1) acc
+--
+--solve::Int->[Int]->Int
+--solve m (x:xs) | m >= x = x
+--               | otherwise = solve m xs
+--
+--main = do
+--  n <- readLn
+--  let p = sortBy (comparing negate) $ takeWhile (< 100000) $ foldl (\acc x->acc ++ [6^x,9^x] ) [1] [1..10]
+--  print $ length $ takeWhile (== 0) foldl (\m _->m ++ solve m p) ([],n) [1..100]
