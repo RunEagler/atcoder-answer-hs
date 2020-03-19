@@ -4,4 +4,4 @@ main = do
   getLine
   an <- map read . words <$> getLine::IO[Int]
   let m = maximum an
-  print $ [ sum $ map (\x -> p `mod` x) an | p <- [m..(2*m-1)]]
+  print $ sum $ map (\x -> x-1) an
