@@ -1,3 +1,5 @@
+module ABC152.D where
+
 import qualified Data.Map as M
 import Data.Maybe (fromJust)
 import Data.Char (intToDigit)

@@ -1,4 +1,4 @@
-module ARC90.A where
+module ARC.ARC90.A where
 
 
 main = do

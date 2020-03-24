@@ -1,4 +1,4 @@
-module ARC99.A where
+module ARC.ARC99.A where
 
 import qualified Data.ByteString.Char8 as B
 import Data.Maybe (fromJust)

@@ -1,3 +1,4 @@
+module ABC147.A where
 
 main = do
   [a1,a2,a3] <- map read . words <$> getLine

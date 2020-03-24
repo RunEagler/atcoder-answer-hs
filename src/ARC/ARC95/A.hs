@@ -1,4 +1,4 @@
-module ARC95.A where
+module ARC.ARC95.A where
 
 import Data.List (sort)
 import qualified Data.ByteString.Char8 as B

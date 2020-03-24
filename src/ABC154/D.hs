@@ -1,3 +1,4 @@
+module ABC154.D where
 
 import Data.Function (on)
 

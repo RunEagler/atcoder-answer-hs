@@ -1,4 +1,4 @@
-module ARC94.A where
+module ARC.ARC94.A where
 
 import Data.List (sort)
 

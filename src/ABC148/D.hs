@@ -1,3 +1,4 @@
+module ABC148.D where
 
 clash::Int->[Int]->Int
 clash n (x:xs) | null xs = if n == x then 0 else 1

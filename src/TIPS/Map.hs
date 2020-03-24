@@ -30,7 +30,6 @@ main = do
   print $ M.lookup "beef" fruitsMap
   print $ fruitsMap M.!? "orange"
   print $ fruitsMap M.! "orange"
---  print $ fruitsMap M.! "beef"
   print $ M.member "orange" fruitsMap
   print $ M.member "beef" fruitsMap
   print $ M.mapKeys ("F." ++ ) fruitsMap
@@ -51,4 +50,3 @@ main = do
   print $ M.size fruitsMap
   print $ M.findIndex "4" fruitsMap
   print $ M.lookupIndex "4" fruitsMap
-  print $ M.elemAt

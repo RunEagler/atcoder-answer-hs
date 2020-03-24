@@ -1,4 +1,4 @@
-module ARC98.A where
+module ARC.ARC98.A where
 
 import qualified Data.Map.Strict as M
 import Data.List (group)

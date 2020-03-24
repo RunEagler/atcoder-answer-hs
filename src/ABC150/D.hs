@@ -1,3 +1,5 @@
+module ABC150.D where
+
 import Data.Function (on)
 
 allLcm::[Int]->Int
