@@ -1,9 +1,13 @@
 module ABC154.C where
 
-import Data.List
-import qualified Data.Set as Set
- 
+import qualified Data.ByteString.Char8 as B
+import Data.Maybe (fromJust)
+import qualified Data.Set as S
+
+getInts :: IO[Int]
+getInts = map (fst . fromJust . B.readInt) . B.words <$> B.getLine
+
 main = do
   n <- readLn
-  an <- map read . words <$> getLine::IO[Int]
-  putStrLn $ if n == length (nub an) then "Yes" else "No"
+  an <- S.fromList <$> getInts
+  putStrLn $ if S.size an == n then "YES" else "NO"
